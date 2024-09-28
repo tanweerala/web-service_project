@@ -1,0 +1,10 @@
+Building rest controller
+========================
+Controller of the RESTFul API is called rest controller
+Use @RestController annotation to create this controller
+This annotation is combination of following two annotations
+1)@Controller anontation
+2)@ResponseBody anontation
+
+This controller will not return view to the front controller
+It will return response/data to the front controller

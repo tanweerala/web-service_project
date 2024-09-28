@@ -1,0 +1,19 @@
+XML format
+===========
+<?xml version="1.0">
+<product>
+  <pid>101</pid>  
+  <name>Mouse</name>
+  <brand>Logitech</brand>
+  <price>1000</price>
+</product>
+
+JSON format
+===========
+
+{
+ "pid":101,
+ "name":"Mouse",
+ "brand":"Logitech",
+ "price":1000  
+}

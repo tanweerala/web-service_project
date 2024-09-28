@@ -1,0 +1,12 @@
+Building RESTFul API
+====================
+
+
+Web Service
+============
+The program that runs on web server and methods of this program are remotely called by client application(front end) is known as web service.These methods(Those methods that will be called by client application remotely) are known as Web APIs
+
+There are two types of web service
+1)SOAP(Simple object access protocol) web service
+2)REST(Representational state transfer) web service
+

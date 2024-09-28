@@ -1,0 +1,36 @@
+Http request method
+===================
+Http request method can be as follows
+1)get method
+2)post method
+3)delete method
+4)put method
+5)patch method
+etc
+
+GET method
+==========
+Client application uses this method in request to call GET API
+GET API will send data/reosurce to the client application
+
+POST method
+===========
+Client application uses this method in request to call POST API
+POST API will accept data/reosurce from the client application and persist that reosurce.This is called creating resource
+
+PUT method
+==========
+Client application uses this method in request to call PUT API
+PUT API will accept data/reosurce from the client application and update that reosurce if resource exists.If reosurce does not exist then create reosurce
+
+GET method
+==========
+Client application uses this method in request to call DELETE API
+DELETE API will delete persisted/saved data/reosurce
+
+PATCH method
+==========
+Client application uses this method in request to call PATCH API
+PATCH API will update persisted/saved data/reosurce partially
+
+

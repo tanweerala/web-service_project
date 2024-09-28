@@ -1,0 +1,7 @@
+Building REST Web service
+==========================
+This is most widely used web server
+Methods of this web service are known as RESTFul APIs
+This web service supports all data exchange format(such as XML(extensible markup language),JSON(Java script object notation),Text,etc)
+
+

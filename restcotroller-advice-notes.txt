@@ -1,0 +1,18 @@
+Defining Rest controller advice
+================================
+This controller should be defined to handle validation errors and exceptions
+User @RestControllerAdvice annotation to define this controller
+To handle validation errors we will have to override following method of ResponseEntityExceptionHandler  class
+
+public ResponseEntity<Object> handleMethodArgumentNotValid()
+
+Response of this controller will be sent to client when validation will be failed
+It means front controller will call method of this controller rather method of Rest Controller
+
+
+MethodArgumentNotValidException class
+=====================================
+An object of this class is created and passed to the handleMethodArgumentNotValid() method
+This object holds several data.One of them is reference of object of BindingResult class
+Object of BindingResult class contains several data.One of them is reference of list collection of ObjectError class
+Object of ObjectError class contains validation error message

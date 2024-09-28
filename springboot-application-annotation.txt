@@ -1,0 +1,6 @@
+@SpringBootApplication
+======================
+It is combination of following three annotations
+1)@Configuration annotation
+2)@ComponentScan annotation
+3)@EnableAutoConfiguration annotation
